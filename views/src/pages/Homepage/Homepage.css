@@ -1,0 +1,10 @@
+.container{
+    
+}
+.background-image-section{
+    background-image: linear-gradient( rgb(0,0,0,0.5) , rgb(0,0,0,0.5)),url('../../images/hero_2.jpg');
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    padding: 30px 50px;
+}

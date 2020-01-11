@@ -1,0 +1,46 @@
+.navbar-section{
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin: 0 30px;
+    position: absolute;
+    top: 20px;
+    width: -webkit-fill-available;
+} 
+.text-black{
+   
+}
+.text-primary{
+    color: #30e3ca;
+}
+.navbar-section h1{
+    font-size: 20px;
+}
+.navbar-section-2{
+  
+}
+.nav-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.nav-link:hover{
+    color: #30E3CA;
+}
+.active{
+    color: #30E3CA;
+}
+.btn{
+    background-color: #30E3CA;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 15px;
+}

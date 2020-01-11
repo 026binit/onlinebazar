@@ -1,24 +1,30 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  NavLink 
+} from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
+import Navbar from '../src/components/Navbar/Navbar';
+import Homepage from '../src/pages/Homepage/Homepage';
+import Loginpage from '../src/pages/Login/Login';
+import Registerpage from '../src/pages/Register/Register';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React   
-        </a>
-      </header>
+       {/* <span class="flaticon-innovation"></span> */}    
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Homepage} />
+          <Route path="/login" component={Loginpage} />
+          <Route path="/register" component={Registerpage} />  
+        </Switch>
+      </Router>
     </div>
   );
 }
