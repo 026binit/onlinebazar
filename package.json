@@ -24,10 +24,6 @@
     "concurrently": "^5.0.2",
     "express": "^4.17.1",
     "mongodb": "^3.4.1",
-<<<<<<< HEAD
-    "react-router-dom": "^5.1.2"
-=======
     "mongoose": "^5.8.3"
->>>>>>> bf77fe7fd7b30b4fb13d25421e1cb50bdc3bd9a1
   }
 }
