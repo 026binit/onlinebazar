@@ -8,3 +8,17 @@
     background-position: center;
     padding: 30px 50px;
 }
+.background-image-section--h1--lagrge{
+    padding-top: 15%;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 40px;;
+    margin: 0
+}
+.background-image--section--p-small{
+    color: #909597;
+    font-size: 20px;
+    margin: 0;
+    line-height: 40px;
+}
