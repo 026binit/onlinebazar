@@ -1,0 +1,26 @@
+.featuredads-section{
+    
+}
+.carousel-item-1{
+    background-color: red;
+}
+.carousel-item-2{
+    background-color: royalblue;
+}
+.carousel-item-3{
+   background-color: saddlebrown;
+}
+.carousel-item-4{
+   background-color: seagreen;
+}
+.carousel-item-5{
+   background-color: slateblue;
+}
+.carousel-item-6{
+   background-color: springgreen;
+}
+.carousel-product--image{
+    height: 200px;
+    width:-webkit-fill-available;
+    object-fit: contain;
+}
