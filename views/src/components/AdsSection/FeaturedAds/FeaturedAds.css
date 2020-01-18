@@ -7,6 +7,9 @@
 .carousel-item{
     
 }
+.space-between-carousel{
+  
+}
 .carousel-product--image{
     width:-webkit-fill-available;
     object-fit: contain;
@@ -57,4 +60,10 @@
    color: #959595;
    margin: 0;
    text-align: left;
+}
+.featuredads-section--heading{
+   text-align: left;
+   font-size: 22px;
+   color: #262627;
+   font-weight: 100;
 }

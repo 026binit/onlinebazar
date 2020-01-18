@@ -1,5 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './FeaturedAds.css';
 
@@ -29,18 +31,29 @@ export default class FeaturedAds extends React.Component{
     render(){
         let settings = {
             dots: false,
-            autoplay:false,
+            autoplay:true,
             infinite: true,
             arrows:true,
-            speed: 500,
+            speed: 100,
             slidesToShow: 4,
-            slidesToScroll: 1,
-            nextArrow: <SampleNextArrow />,
-            prevArrow: <SamplePrevArrow />
+            slidesToScroll: 1
         };
         return(
             <div className="featuredads-section">
-                <h1>Featured Ads</h1>
+               <h1 className="featuredads-section--heading">Featured Ads</h1>
+            </div>
+        )
+    }
+}
+
+/* 
+
+
+
+
+
+  <div className="featuredads-section">
+                <h1 className="featuredads-section--heading">Featured Ads</h1>
                 <div className="carousel-container">
                 <Slider 
                   {...settings}>
@@ -125,6 +138,9 @@ export default class FeaturedAds extends React.Component{
                   </Slider>
                 </div>
             </div>
-        )
-    }
-}
+
+
+
+
+
+*/
