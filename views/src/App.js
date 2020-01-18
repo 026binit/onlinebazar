@@ -14,9 +14,9 @@ import Loginpage from '../src/pages/Login/Login';
 import Registerpage from '../src/pages/Register/Register';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faCheckSquare, faCoffee, faMapMarker, faMapMarkerAlt, faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { faCheckSquare, faCoffee, faMapMarker, faMapMarkerAlt, faAngleDown, faHeart } from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faCheckSquare, faCoffee, faMapMarkerAlt, faAngleDown);
+library.add(fab, faCheckSquare, faCoffee, faMapMarkerAlt, faAngleDown, faHeart);
 
 function App() {
   return (

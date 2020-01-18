@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from "react-slick";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './FeaturedAds.css';
 
 function SampleNextArrow(props) {
@@ -40,27 +41,89 @@ export default class FeaturedAds extends React.Component{
         return(
             <div className="featuredads-section">
                 <h1>Featured Ads</h1>
+                <div className="carousel-container">
                 <Slider 
                   {...settings}>
-                     <div className="carousel-item-1">
+                     <div className="carousel-item">
                          <img className="carousel-product--image" src={require('../../../images/img_1.jpg')} />
+                         <div className="carousel-product-desc">
+                            <div className="carousel-product-desc--category--icon">
+                               <span>Real State</span>
+                               <FontAwesomeIcon className="carousel-product-desc--category--icon--heart" icon="heart" />
+                            </div>
+                            <div className="carousel-product-desc--product">
+                              <p className="carousel-product-desc--product--name">Red Luxury Car</p> 
+                              <p className="carousel-product-desc--product-location">Don St. Brooklyn, New York</p> 
+                            </div>
+                         </div>
                      </div>
-                     <div className="carousel-item-2">
+                     <div className="carousel-item">
                       <img className="carousel-product--image" src={require('../../../images/img_2.jpg')} />
+                      <div className="carousel-product-desc">
+                            <div className="carousel-product-desc--category--icon">
+                               <span>Real State</span>
+                               <FontAwesomeIcon className="carousel-product-desc--category--icon--heart" icon="heart" />
+                            </div>
+                            <div className="carousel-product-desc--product">
+                              <p className="carousel-product-desc--product--name">Red Luxury Car</p> 
+                              <p className="carousel-product-desc--product-location">Don St. Brooklyn, New York</p> 
+                            </div>
+                      </div>
                      </div>
-                     <div className="carousel-item-3">
+                     <div className="carousel-item">
                       <img className="carousel-product--image" src={require('../../../images/img_3.jpg')} />
+                      <div className="carousel-product-desc">
+                            <div className="carousel-product-desc--category--icon">
+                               <span>Real State</span>
+                               <FontAwesomeIcon className="carousel-product-desc--category--icon--heart" icon="heart" />
+                            </div>
+                            <div className="carousel-product-desc--product">
+                              <p className="carousel-product-desc--product--name">Red Luxury Car</p> 
+                              <p className="carousel-product-desc--product-location">Don St. Brooklyn, New York</p> 
+                            </div>
+                      </div>
                      </div>
-                     <div className="carousel-item-4">
+                     <div className="carousel-item">
                        <img className="carousel-product--image" src={require('../../../images/img_4.jpg')} />
+                       <div className="carousel-product-desc">
+                            <div className="carousel-product-desc--category--icon">
+                               <span>Real State</span>
+                               <FontAwesomeIcon className="carousel-product-desc--category--icon--heart" icon="heart" />
+                            </div>
+                            <div className="carousel-product-desc--product">
+                              <p className="carousel-product-desc--product--name">Red Luxury Car</p> 
+                              <p className="carousel-product-desc--product-location">Don St. Brooklyn, New York</p> 
+                            </div>
+                       </div>
                      </div>
-                     <div className="carousel-item-5">
+                     <div className="carousel-item">
                        <img className="carousel-product--image" src={require('../../../images/img_1.jpg')} />
+                       <div className="carousel-product-desc">
+                            <div className="carousel-product-desc--category--icon">
+                               <span>Real State</span>
+                               <FontAwesomeIcon className="carousel-product-desc--category--icon--heart" icon="heart" />
+                            </div>
+                            <div className="carousel-product-desc--product">
+                              <p className="carousel-product-desc--product--name">Red Luxury Car</p> 
+                              <p className="carousel-product-desc--product-location">Don St. Brooklyn, New York</p> 
+                            </div>
+                       </div>
                      </div>
-                     <div className="carousel-item-6">
+                     <div className="carousel-item">
                        <img className="carousel-product--image" src={require('../../../images/img_2.jpg')} />
+                       <div className="carousel-product-desc">
+                            <div className="carousel-product-desc--category--icon">
+                               <span>Real State</span>
+                               <FontAwesomeIcon className="carousel-product-desc--category--icon--heart" icon="heart" />
+                            </div>
+                            <div className="carousel-product-desc--product">
+                              <p className="carousel-product-desc--product--name">Red Luxury Car</p> 
+                              <p className="carousel-product-desc--product-location">Don St. Brooklyn, New York</p> 
+                            </div>
+                      </div>
                     </div>
-                </Slider>
+                  </Slider>
+                </div>
             </div>
         )
     }
